@@ -1,4 +1,3 @@
-// src/components/Grid.jsx
 import React from 'react';
 
 const Grid = ({ grid, updatePixel, pixelSize = 30 }) => {
