@@ -1,0 +1,125 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size-controls {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.size-slider {
+  width: 200px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.settings {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.palette {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background-color: #3d3d3d;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+.color-box {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.color-box:hover,
+.color-box.selected {
+  border-color: #000;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 15px;
+
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-pixel {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.sprite-display {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sprite-row {
+  display: flex;
+}
+
+.sprite-pixel {
+  width: 30px;
+  height: 30px;
+}
+@font-face {
+  font-family: 'Common Pixel';
+  src: url('/fonts/CommonPixel-Regular.ttf') format('truetype');
+}
+
+:root {
+  font-family: 'Common Pixel', monospace;
+  font-size: 16px;
+}
+
+
+/* Apply to all text elements */
+h1, h2, h3, p, button {
+  font-family: inherit;
+  font-smooth: never;
+}
