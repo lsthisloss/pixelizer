@@ -4,15 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "npm run dev",
+    "start": "serve -s build",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "serve": "^14.2.4"
+    "serve": "^14.2.4",
+       "serve": "^13.0.2",
+    "react-scripts": "latest"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
