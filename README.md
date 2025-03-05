@@ -1,5 +1,5 @@
 ## React Pixel Art app 
-Components: Grid, Palette, App 
+Components: Grid, Palette, App    
 Grid is mapped and filled with color;  
 Rendering grid after each mouse drag from a user;  
 
